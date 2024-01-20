@@ -1,0 +1,17 @@
+Project: Automated Windows Virtual Machine Deployment
+
+Description:
+This project provides Terraform scripts to automate the deployment of a Windows Virtual Machine on Microsoft Azure. Users can easily customize the VM specifications such as size, region, and administrator credentials.
+
+Requirements:
+
+Terraform installed on your machine.
+An active Microsoft Azure subscription.
+Usage:
+
+Clone the repository.
+Navigate to the project directory.
+Run terraform init to initialize the Terraform configuration.
+Create a terraform.tfvars file and provide required variables (see below).
+Run terraform apply to deploy the Windows Virtual Machine.
+Terraform Configuration (main.tf):
