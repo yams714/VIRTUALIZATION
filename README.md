@@ -1,4 +1,4 @@
-# VIRTUALIZATION
+
 provider "azurerm" {
   features = {}
 }
